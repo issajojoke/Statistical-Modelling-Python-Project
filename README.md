@@ -1,17 +1,20 @@
 # Final-Project-Statistical-Modelling-with-Python
 
 ## Project/Goals
-(fill in your description and goals here)
+Use Pandas and JSON to access and parse through APIs, selecting details to be included in the dataframe. Use the dataframes created to then create a regressional model. Interpret the models to understand the relationships between the variables. 
 
 ## Process
-### (your step 1)
-### (your step 2)
+1. Access APIs and explore them.
+2. Create databases with the details selected from the API.
+3. Clean combined database.
+4. Create model with the database created.
+5. interpret and understand the relationship between variables. 
 
 ## Results
-(fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
+I discovered that there are many overlapping restaurants withinn 1000m of all bike stations in the city of Vancouver. The regression model I completed shows that there is a significant relationship between the number of bikes available and the number of empty bike slots. 
 
 ## Challenges 
-(discuss challenges you faced in the project)
+Connecting to the API was quite challenging at the beginning. I maxxed out my Yelp API calls before learning that it is better to save a CSV of the dataframe I created.
 
 ## Future Goals
-(what would you do if you had more time?)
+I would have added more details to my dataframe, examples include: price, distance, number of reviews, etc.
