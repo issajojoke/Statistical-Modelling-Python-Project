@@ -5,7 +5,7 @@ Use Pandas and JSON to access and parse through APIs, selecting details to be in
 
 ## Process
 1. Access APIs and explore them.
-2. Create databases with the details selected from the API.
+2. Create dataframes with the details selected from the API.
 3. Clean combined database.
 4. Create model with the database created.
 5. interpret and understand the relationship between variables. 
